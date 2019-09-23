@@ -6,12 +6,17 @@
   width: 100%;
 }
 
+hr {
+  width: 180px;
+}
+
 /* ________________________________ TOPMENU ________________________________ */
 #topMenuMainContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
   padding: 10px 50px 0 50px;
 }
 
@@ -20,7 +25,7 @@
   color: white;
   font-size: 37px;
   font-weight: bold;
-  text-decoration: overline;
+  text-decoration: overline underline;
 }
 
 .topMenuNav {
@@ -28,7 +33,7 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
-  text-decoration: overline;
+  text-decoration: none;
 }
 
 /* ------------------------------------------------------------------------- */
