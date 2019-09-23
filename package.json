@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "history": "^4.10.1",
+    "react-router-dom": "^5.0.1",
+    "react-scroll-manager": "^1.0.2",
+    "semantic-ui-css": "^2.4.1"
+  }
 }

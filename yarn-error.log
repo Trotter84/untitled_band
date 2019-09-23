@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /Users/danieltrotter/.npm-global/bin/yarn add semantic.min.css
+
+PATH: 
+  ~/.npm-global/bin:/Users/danieltrotter/arc/arcanist/bin:/Users/danieltrotter/.rbenv/shims:~/.npm-global/bin:/Users/danieltrotter/.rbenv/shims:/Applications/Postgres.app/Contents/Versions/10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/danieltrotter/.npm-global/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/semantic.min.css: Not found
+      at Request.params.callback [as _callback] (/Users/danieltrotter/.npm-global/lib/node_modules/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/Users/danieltrotter/.npm-global/lib/node_modules/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/Users/danieltrotter/.npm-global/lib/node_modules/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/Users/danieltrotter/.npm-global/lib/node_modules/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "create-repack-app",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "cd client && npm install --only=dev && npm install && npm run build && cd ..",
+      "deploy": "cp -a client/build/. public/",
+      "heroku-postbuild": "npm run build && npm run deploy && echo 'Client Built'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
