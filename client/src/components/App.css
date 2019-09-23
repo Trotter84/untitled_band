@@ -1,5 +1,37 @@
 /* ============================= DESKTOP VERSION ============================= */
+#appMainContainer {
+  background-image: url(../images/fs_mr_smalls.jpg);
+  background-size: cover;
+  height: 789px;
+  width: 100%;
+}
 
+/* ________________________________ TOPMENU ________________________________ */
+#topMenuMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 50px 0 50px;
+}
+
+#topMenuTitle {
+  cursor: pointer;
+  color: white;
+  font-size: 37px;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+.topMenuNav {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+/* ------------------------------------------------------------------------- */
 
 /* ********************************** HOME ********************************** */
 
@@ -12,7 +44,25 @@
 
 /* ============================= TABLET VERSION ============================= */
 @media (min-width: 426px) and (max-width: 768px) {
+#appMainContainer {
+  background-image: url();
+  background-size: cover;
+}
 
+/* ________________________________ TOPMENU ________________________________ */
+#topMenuMainContainer {
+
+}
+
+#topMenuTitle {
+
+}
+
+.topMenNav {
+
+}
+
+/* ------------------------------------------------------------------------- */
 
 /* ********************************** HOME ********************************** */
 
@@ -25,7 +75,25 @@
 
 /* ============================= MOBILE VERSION ============================= */
 @media (max-width: 426px) {
+#appMainContainer {
+  background-image: url();
+  background-size: cover;
+}
 
+/* ________________________________ TOPMENU ________________________________ */
+#topMenuMainContainer {
+
+}
+
+#topMenuTitle {
+
+}
+
+.topMenNav {
+
+}
+
+/* ------------------------------------------------------------------------- */
 
 /* ********************************** HOME ********************************** */
 
