@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Social extends Component {
   render() {
     return(
-      <h1>Social</h1>
+      <h1 id='socialTitle'>Social</h1>
     )
   }
 }
