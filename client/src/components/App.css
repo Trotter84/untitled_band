@@ -20,6 +20,7 @@ hr {
 }
 
 #topMenuTitle {
+  font-family: 'Vollkorn SC', serif;
   cursor: pointer;
   color: white;
   font-size: 37px;
@@ -28,6 +29,7 @@ hr {
 }
 
 .topMenuNav {
+  font-family: 'Vollkorn SC', serif;
   cursor: pointer;
   color: white;
   font-size: 20px;
@@ -39,6 +41,7 @@ hr {
 
 /* ********************************** HOME ********************************** */
 #homeTitle {
+  font-family: 'Playfair Display SC', serif;
   color: white;
 }
 
@@ -46,6 +49,7 @@ hr {
 
 /* ********************************* ABOUT ********************************* */
 #aboutUsTitle {
+  font-family: 'Playfair Display SC', serif;
   color: white;
 }
 
@@ -53,6 +57,7 @@ hr {
 
 /* ********************************* SOCIAL ********************************* */
 #socialTitle {
+  font-family: 'Playfair Display SC', serif;
   color: white;
 }
 
@@ -61,6 +66,7 @@ hr {
 
 /* ********************************** TOUR ********************************** */
 #tourTitle {
+  font-family: 'Playfair Display SC', serif;
   color: white;
 }
 
@@ -69,6 +75,7 @@ hr {
 
 /* ********************************* MERCH ********************************* */
 #merchTitle {
+  font-family: 'Playfair Display SC', serif;
   color: white;
 }
 
