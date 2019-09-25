@@ -22,6 +22,7 @@ const Nav = Styled(Link)`
   }
 `
 
+
 const TitleMOBILE = Styled.h1`
   transition: all 200ms ease-in-out;
   &:hover,&.active {
