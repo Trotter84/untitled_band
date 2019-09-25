@@ -10,12 +10,15 @@ hr {
   width: 180px;
 }
 /* ________________________________ TOPMENU ________________________________ */
+#topMenuMainContainerMOBILE {
+  display: none;
+}
+
 #topMenuMainContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
   padding: 10px 50px 0 50px;
 }
 
@@ -101,7 +104,7 @@ hr {
 
 }
 
-.topMenNav {
+.topMenuNav {
 
 }
 
@@ -152,21 +155,50 @@ hr {
 /* ============================= MOBILE VERSION ============================= */
 @media (max-width: 426px) {
 #appMainContainer {
-  background-image: url();
+  background-image: url(../images/fs_mr_smalls_MOBILE.jpg);
   background-size: cover;
+  max-width: 426px;
 }
 
+.hrMOBILE {
+  width: 30px;
+}
 /* ________________________________ TOPMENU ________________________________ */
 #topMenuMainContainer {
-
+  display: none;
 }
 
-#topMenuTitle {
-
+#topMenuMainContainerMOBILE {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px 0 50px;
 }
 
-.topMenNav {
+#topMenuNavContainerMOBILE {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 50px 0 50px;
+}
 
+#topMenuTitleMOBILE {
+  font-family: 'Vollkorn SC', serif;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: overline underline;
+}
+
+.topMenuNavMOBILE {
+  font-family: 'Vollkorn SC', serif;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* ------------------------------------------------------------------------- */
